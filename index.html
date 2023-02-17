@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="This is a webpage displaying different apps with an additional feature of launching them by clicking on the buttons provided">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <title>Brinner Ninah</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!--I already made a folder including all the changes however launched it as a private repository, so i had to create another and make it public.
+    Hence the limited number of changes recorded by github.
+  I could submit both, however, the submission field limits me to one. -->
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Brinner Ninah</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                   title="To homepage"
+                >Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" title="About me">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html#contact" title="Contact me" target="_blank">Contact me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <h2>👋 Hi I am</h2>
+    <h1>Brinner Ninah</h1>
+    <h3>🇰🇪 Front-end developer, based in Africa</h3>
+    <div class="navigation-links">
+      <a href="about.html#contact" class="contact-link" target="_blank" title="Contact me">Contact me</a>
+      <a href="about.html" class="about-link" target="_blank" title="About me">About me</a>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/yoga.png" class="img-fluid rounded" alt="a woman doing yoga"/>
+        </div>
+        <div class="col-md-6">
+          <h2 class="mb-3">Yoga App</h2>
+          <p>This app allows you to sign up to relatively multiple yoga courses, as well as learn more about yoga. 
+            Launch this app to your device by clicking on the buttton bellow.</p>
+          <div class="mt-5">
+            <a href="#" class="primary-link" title="Launching yoga app">Launch Yoga App</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-md-6">          
+          <h2 class="mb-3">Weather App</h2>
+          <p  >This app allows you to check the given weather conditions in different parts/regions around the world.
+            Type either the town or city name and data will be fetched immediately, hence instant feedback on the forecast. 
+            Launch this app to your device by clicking on the button bellow.</p>
+          <div class="mt-5 ">
+            <a href="#" class="primary-link" title="Launching weather app">Launch Weather App</a>
+        </div>
+      </div>
+        <div class="col-md-6">
+          <img src="images/weather.png" class="img-fluid rounded" alt="weather app" />
+        </div>
+      </div>
+    
+
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <img src="images/yogurt.png" class="img-fluid rounded" alt="yoghurt app"/>
+        </div>
+        <div class="col-md-6">
+          <h2 class="mb-3">Yogurt App</h2>
+          <p>This Website allows you to discover multiple yogurt flavours all across the world,
+             as well as learn more about different types of yogurts and each of their nutritional benefits. 
+            Launch this app to your device by clicking on the buttton bellow.</p>
+          <div class="mt-5">
+            <a href="#" class="primary-link">Launch Yogurt App</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
