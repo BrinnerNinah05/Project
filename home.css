@@ -18,6 +18,7 @@ h2 {
   font-size: 64px;
   font-family: var(--heading-font-family);
   font-weight: bold;
+  color: black;
 }
 p {
   font-family: var(--default-font-family);
@@ -60,4 +61,7 @@ p {
 }
 .project-desciption {
   padding: 120px 60px;
+}
+.about-section {
+  padding: 160px 20px;
 }
